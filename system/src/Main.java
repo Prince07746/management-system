@@ -173,7 +173,7 @@ class Manager extends Person{
     public Manager(String name, String surname, String password, int age) {
         super(name, surname, password, age);
         this.actionNumber = 0;
-        this.managerId = AutoGenId();
+        managerId = AutoGenId();
     }
 
     public int getActionNumber() {
